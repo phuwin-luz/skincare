@@ -1,0 +1,163 @@
+h1{
+    margin-left: 25%;
+    color: #ff1493;
+}
+form {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8dbef;
+    border-radius: 8px;
+    box-shadow: 0 0 10rgb(164, 65, 65)gba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #fff0f5; 
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Estilo para el campo de entrada de texto */
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px; /* Tamaño de la fuente aumentado */
+}
+
+/* Estilo para el campo de entrada de texto cuando se enfoca */
+.form-group input[type="text"]:focus {
+    outline: none;
+    border-color: #ff4081; /* Cambio de color del borde al enfocar */
+    box-shadow: 0 0 0 2px rgba(255, 64, 129, 0.5); /* Sombra al enfocar */
+}
+
+/* Estilo para el textarea */
+.form-group textarea {
+    width: 100%; /* Ancho del textarea al 100% */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 150px; /* Altura mínima del textarea */
+}
+
+/* Estilo para el textarea cuando se enfoca */
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff4081; /* Cambio de color del borde al enfocar */
+    box-shadow: 0 0 0 2px rgba(255, 64, 129, 0.5); /* Sombra al enfocar */
+}
+
+
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff69b4;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ff69b4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+form input[type="submit"] {
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff1493;
+}
+
+
+button[name="submit"] {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[name="submit"]:hover {
+    background-color: #ff1493;
+}
+
+.form-group.submit-btn {
+    text-align: center;
+}
+
+.form-group.submit-btn button[type="submit"] {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.form-group.submit-btn button[type="submit"]:hover {
+    background-color: #ff1493;
+}
+
+
+/* Estilo para el select */
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    appearance: none; /* Para quitar los estilos de selección predeterminados del navegador */
+    background-color: #fff; /* Color de fondo del select */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M7 10l5 5 5-5H7z"/></svg>'); /* Icono de flecha personalizado */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Posición del icono de flecha */
+    background-size: 24px; /* Tamaño del icono de flecha */
+    cursor: pointer;
+}
+
+/* Estilo para las opciones del select */
+.form-group select option {
+    background-color: #fce4ec; /* Fondo de las opciones */
+    color: #333; /* Color del texto de las opciones */
+}
+
+/* Estilo para el hover del select */
+.form-group select:hover {
+    border-color: #ff4081; /* Cambio de color del borde al pasar el cursor */
+}
+
+/* Estilo para el foco del select */
+.form-group select:focus {
+    outline: none; /* Quita el contorno al enfocar */
+    box-shadow: 0 0 0 2px rgba(255, 64, 129, 0.5); /* Sombra al enfocar */
+}
+
+
+
